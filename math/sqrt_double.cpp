@@ -27,10 +27,10 @@ double Sqrt(double x) {
     return -1;
 }
 int main() {
-  double n{};
-  std::cin >> n;
-  assert(n >= 0);
-  // Change this line for a better precision
-  std::cout.precision(12);
-  std::cout << std::fixed << Sqrt(n);
+    double n{};
+    std::cin >> n;
+    assert(n >= 0);
+    // Change this line for a better precision
+    std::cout.precision(12);
+    std::cout << std::fixed << Sqrt(n);
 }
